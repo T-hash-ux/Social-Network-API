@@ -1,3 +1,4 @@
+// Set up the user controller to encapsulate the functions relation to the user operations
 const { User } = require('../models');
 
 const userController = {
@@ -13,10 +14,7 @@ const userController = {
 
     getUserById({ params }, res) {
         User.findOne({ _id: params.id })
-            // .populate({
-            //     path: 'user',
-            //     select: '-__v'
-            // })
+           
             .select('-__v')
             .then(dbUserData => {
 
