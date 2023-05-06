@@ -1,3 +1,6 @@
+// The overall purpose of this code is to define a Mongoose schema and model for a "Thought" object.
+// The code imports necessary dependencies such as the Mongoose library, a date formatting utility, and a reaction schema.
+
 const { Schema, model, Types } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 const reactionSchema = require('./reaction');
