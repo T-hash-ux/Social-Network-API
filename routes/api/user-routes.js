@@ -1,3 +1,6 @@
+// The overall purpose of this code is to define an Express router that handles different routes related to users and their interactions in a web application. 
+// The code imports the necessary dependencies, including the Express library, and the corresponding controller functions from the user-controller module.
+
 const router = require('express').Router();
 
 const {
