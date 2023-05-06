@@ -1,3 +1,6 @@
+// The overall purpose of this code is to define a Mongoose schema and model for a "User" object.
+// The code imports the necessary dependencies, such as the Mongoose library and a user controller.
+
 const { Schema, model } = require("mongoose");
 const userController = require("../controllers/user-controller");
 
