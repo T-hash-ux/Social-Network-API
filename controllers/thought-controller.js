@@ -1,10 +1,14 @@
-const { User } = require('../models');
+// Set up the thought controllers to encapsulate the functions related to thought operations.
+
+// // Importing the User model
+const { User } = require('../models'); 
+// // Importing the Thought model
 const { Thought } = require('../models');
 
 const thoughtController = {
 
     getAllThought(req, res) {
-        Thought.find({})
+        Thought.find({}) // Retrieve all thoughts
             .sort({ _id: -1 })
             .then(dbThoughtData => res.json(dbThoughtData))
             .catch(err => {
