@@ -1,3 +1,4 @@
+// The overall purpose of this model is to define the schema for a reaction in a system using Mongoose, which is an Object Data Modeling (ODM) library for MongoDB in Node.js.
 const { Schema, Types } = require('mongoose');
 const moment = require('moment');
 
