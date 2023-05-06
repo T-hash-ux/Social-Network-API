@@ -1,3 +1,5 @@
+// The overall purpose of this code is to define an Express router that handles different routes related to thoughts and reactions in a web application. 
+// The code imports the necessary dependencies, including the Express library, and the corresponding controller functions from the thought-controller module.
 const router = require('express').Router();
 
 const {
