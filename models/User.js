@@ -4,7 +4,7 @@
 const { Schema, model } = require("mongoose");
 const userController = require("../controllers/user-controller");
 
-
+// The UserSchema is defined using the Schema object from Mongoose. It has several properties.
 const UserSchema = new Schema({
     username: {
         type: String,
