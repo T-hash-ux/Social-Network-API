@@ -1,3 +1,7 @@
+// The overall purpose of this code is to define a function that formats a timestamp into a human-readable date and time format. 
+// The code exports this function as a module.
+
+// The code defines the function using an arrow function expression with two parameters: timeStamp and an options object with two optional properties: monthLength and dateSuffix.
 const { timeStamp } = require("console");
 
 const addDateSuffix = date => {
